@@ -16,7 +16,8 @@
         android:id="@+id/navigation_order"
         android:name="com.agrivator.agrivator_user.ui.order.OrderFragments"
         android:label="@string/title_order"
-        tools:layout="@layout/fragment_order" />
+        tools:layout="@layout/fragment_order" >
+    </fragment>
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.agrivator.agrivator_user.ui.profile.ProfileFragment"

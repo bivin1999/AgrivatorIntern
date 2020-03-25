@@ -6,40 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".ui.items.ItemFragment">
 
-    <View
-        android:id="@+id/divider"
-        android:layout_width="409dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="184dp" />
-
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="409dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="478dp" />
-
     <Button
         android:id="@+id/buttonGrocery"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="200dp"
         android:background="@android:drawable/ic_menu_agenda"
         android:text="@string/button_grocery"
         android:textColor="@android:color/background_dark"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonProduct"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonProduct"
@@ -47,15 +31,15 @@
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="200dp"
         android:background="@android:drawable/ic_menu_manage"
         android:text="@string/button_our_product"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonGrocery"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
