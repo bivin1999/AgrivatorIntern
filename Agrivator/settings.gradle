@@ -1,0 +1,2 @@
+rootProject.name='Agrivator'
+include ':app'
