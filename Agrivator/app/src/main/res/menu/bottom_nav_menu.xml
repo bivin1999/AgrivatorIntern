@@ -15,5 +15,9 @@
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_account_box_black_24dp"
         android:title="@string/title_profile" />
+    <item
+        android:id="@+id/navigation_order_by_store"
+        android:icon="@drawable/ic_business_black_24dp"
+        android:title="@string/title_order_by_store"/>
 
 </menu>

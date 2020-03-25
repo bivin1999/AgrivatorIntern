@@ -12,6 +12,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.agrivator.agrivator_user.R
 import com.agrivator.agrivator_user.grocery
+import com.agrivator.agrivator_user.product
 import kotlinx.android.synthetic.main.fragment_item.*
 
 class ItemFragment : Fragment() {
@@ -33,7 +34,7 @@ class ItemFragment : Fragment() {
         }
         val buttonProduct = root.findViewById<Button>(R.id.buttonProduct)
         buttonProduct.setOnClickListener {
-            val intent = Intent(this.context,grocery::class.java)
+            val intent = Intent(this.context,product::class.java)
             startActivity(intent)
         }
         //val textView: TextView = root.findViewById(R.id.text_item)
