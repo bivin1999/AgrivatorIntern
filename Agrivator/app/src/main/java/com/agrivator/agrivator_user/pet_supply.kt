@@ -8,5 +8,6 @@ class pet_supply : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pet_supply)
+        super.setTitle("Pet Supply")
     }
 }

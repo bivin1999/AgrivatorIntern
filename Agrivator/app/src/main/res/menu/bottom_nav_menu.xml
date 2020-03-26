@@ -12,12 +12,12 @@
         android:title="@string/title_order" />
 
     <item
+        android:id="@+id/navigation_create_list"
+        android:icon="@drawable/ic_toc_black_24dp"
+        android:title="@string/title_create_list" />
+    <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_account_box_black_24dp"
-        android:title="@string/title_profile" />
-    <item
-        android:id="@+id/navigation_order_by_store"
-        android:icon="@drawable/ic_business_black_24dp"
-        android:title="@string/title_order_by_store"/>
+        android:title="@string/title_profile"/>
 
 </menu>

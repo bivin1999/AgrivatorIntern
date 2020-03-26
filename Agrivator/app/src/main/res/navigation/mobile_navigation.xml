@@ -18,13 +18,13 @@
         android:label="@string/title_order"
         tools:layout="@layout/fragment_order" />
     <fragment
+        android:id="@+id/navigation_create_list"
+        android:name="com.agrivator.agrivator_user.ui.create_list.CreateListFragments"
+        android:label="@string/title_create_list"
+        tools:layout="@layout/fragment_create_list" />
+    <fragment
         android:id="@+id/navigation_profile"
         android:name="com.agrivator.agrivator_user.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
-    <fragment
-        android:id="@+id/navigation_order_by_store"
-        android:name="com.agrivator.agrivator_user.ui.order_by_store.OrderStoreFragments"
-        android:label="@string/title_order_by_store"
-        tools:layout="@layout/fragment_order_by_store" />
 </navigation>

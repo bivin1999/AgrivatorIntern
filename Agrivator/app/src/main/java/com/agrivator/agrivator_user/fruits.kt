@@ -8,5 +8,7 @@ class fruits : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fruits)
+        super.setTitle("Fruits")
     }
+
 }

@@ -9,15 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".vegetables"></activity>
-        <activity android:name=".fruits" />
-        <activity android:name=".pet_supply" />
-        <activity android:name=".medicines" />
-        <activity android:name=".product" />
-        <activity android:name=".ui.product" />
-        <activity android:name=".grocery" />
+        <activity android:name=".grocery" android:screenOrientation="portrait" />
+        <activity android:name=".vegetables" android:screenOrientation="portrait"/>
+        <activity android:name=".fruits" android:screenOrientation="portrait"/>
+        <activity android:name=".pet_supply" android:screenOrientation="portrait" />
+        <activity android:name=".medicines" android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

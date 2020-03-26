@@ -6,7 +6,7 @@
     <string name="title_profile">Profile</string>
     <string name="button_grocery">Grocery</string>
     <string name="button_our_product">Our Product</string>
-    <string name="title_order_by_store">Order By Store</string>
+    <string name="title_create_list">Create List</string>
     <string name="button_medicine">Medicines</string>
     <string name="button_pet_supplies">Pet Supplies</string>
     <string name="button_vegetables">Vegetables</string>

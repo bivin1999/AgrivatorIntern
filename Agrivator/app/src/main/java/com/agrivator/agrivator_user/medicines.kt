@@ -8,5 +8,6 @@ class medicines : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_medicines)
+        super.setTitle("Medicines")
     }
 }
